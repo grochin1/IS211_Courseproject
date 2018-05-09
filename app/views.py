@@ -97,7 +97,7 @@ def logout():
     return redirect(url_for('blog'))
 
 
-admin = Blueprint('admin', __name__, url_prefix='/dashboard')
+admin = Blueprint('admin', __name__, url_prefix='/login')
 
 
 @admin.route('/')
