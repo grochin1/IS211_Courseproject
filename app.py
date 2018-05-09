@@ -168,7 +168,7 @@ cubilia.
 
 
 POST_5 = u"""
-To run my Project *IS211 Courseproject*, download code from [Mygithub](https://github.com/grochin1/IS211_Courseproject).
+To run *IS211 Course Project*, download the code from [my github](https://github.com/grochin1/IS211_Courseproject).
 
 ```python
 python app.py init
