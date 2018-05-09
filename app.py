@@ -90,15 +90,15 @@ def dropdb():
 
 
 POST_1 = u"""
-First blog post.
+Learn vegan recipes and tips.
 
 Nam quis urna est. Duis vel tincidunt quam. Vivamus odio tortor, suscipit vel
 pretium quis, imperdiet quis dolor. Integer molestie enim nec risus malesuada
 imperdiet. Donec pellentesque justo id sem tempor varius. Etiam ut tincidunt
 lorem. Nullam a tellus sem.
 
-### If Vegans Said the Stuff Meat Eaters Say
-<iframe width="560" height="315" src="//www.youtube.com/watch?v=0ikwofGUtYY"
+### How to make coconut yogurt by the Minimalist Baker
+<iframe width="560" height="315" src="//www.youtube.com/watch?v=1O-0_fyVzjs"
 frameborder="0" allowfullscreen></iframe>
 
 Vestibulum a neque sed quam pharetra interdum. Quisque euismod dictum ipsum.
