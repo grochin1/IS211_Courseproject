@@ -2,7 +2,16 @@ git init
 git add .
 git commit -m "First commit"
 git remote rm origin
-git remote add origin remote repository https://github.com/grochin1/IS211_Courseproject.git
+git remote add origin https://github.com/grochin1/IS211_Courseproject.git
+
 git remote -v
 git push -u origin master
 
+
+
+touch README
+git add README
+
+git add .
+git commit -m 'reinitialized files'
+git push origin master --force 
