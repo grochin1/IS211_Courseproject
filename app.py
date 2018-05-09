@@ -31,7 +31,7 @@ def filldb():
     db.session.commit()
 
     post = Post(
-        title=u'Hello, world!',
+        title=u'Hello, Professor!',
         markup=POST_1,
         author_id=admin.id,
         visible=True,
@@ -72,7 +72,7 @@ def filldb():
     )
     db.session.add(post)
     post = Post(
-        title=u'Getting started with Flask',
+        title=u'My project for IS211',
         markup=POST_5,
         author_id=admin.id,
         visible=True,

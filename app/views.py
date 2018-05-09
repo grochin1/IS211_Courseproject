@@ -102,9 +102,16 @@ admin = Blueprint('admin', __name__, url_prefix='/login')
 
 @admin.route('/')
 @login_required
-def overview():
+def overview(page=1):
     """Show admin overview page."""
-    return render_template('admin/overview.html')
+
+    pagination = Post.query.filter_by() \
+                           .order_by(Post.created.desc()) \
+                           .paginate(page, Post.PER_PAGE, False)
+    
+    #return render_template('admin/post/list.html', pagination=pagination)
+
+    return render_template('admin/overview.html', pagination=pagination)
 
 
 @admin.route('/settings', methods=['GET', 'POST'])
