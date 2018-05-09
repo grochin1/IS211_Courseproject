@@ -41,5 +41,5 @@ blog posts. I created a post of a dish I like!
 
     $ python app.py runserver
 
-Login with **maritza** as default username and password. (Both username and password is same) Just add /login to the
+Login with **maritza** as default username and password. (Both username and password are the same) Just add /login to the
 url or press the login icon at the top of the page.
