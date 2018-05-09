@@ -18,12 +18,8 @@ After logging in, the user should be sent to the ‘/dashboard’ page, which pr
 
 
 Simple blog with an administrator area created for Project IS211
-[Flask](http://flask.pocoo.org) and Python. The design is prototyped with
-[Bootstrap](http://twitter.github.io/bootstrap).
 
 
-## License
-Licensed under GNU GPL v3.0.
 
 ## Install
 
@@ -36,7 +32,7 @@ Licensed under GNU GPL v3.0.
 ### Initialize
 
 The following command will create all tables and fill the database with dummy
-blog posts. I created some posts of  the food I like!
+blog posts. I created a post of the food I like!
 
     $ python app.py init
 
