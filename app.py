@@ -72,7 +72,7 @@ def filldb():
     )
     db.session.add(post)
     post = Post(
-        title=u'My project for IS211',
+        title=u'My project for IS211 is a Vegan Blog',
         markup=POST_5,
         author_id=admin.id,
         visible=True,
