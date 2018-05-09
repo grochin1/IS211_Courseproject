@@ -1,0 +1,36 @@
+#content {
+  margin-bottom: 30px;
+}
+#login-icon a {
+  color: #eee;
+}
+#post-title {
+  margin-bottom: -10px;
+}
+#post-title a {
+  color: #333;
+}
+#post-meta {
+  margin-bottom: 15px;
+}
+#post-markup {
+}
+#post-separator hr {
+  width: 23%;
+  margin: 60px auto;
+}
+#post-pagination {
+  margin: 0 auto 60px auto;
+}
+.container {
+  width: auto;
+  max-width: 640px;
+  padding: 0 15px;
+}
+.page-header a {
+  color: #333;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}

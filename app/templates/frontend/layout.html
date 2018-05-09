@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}
+Flask-Blog - IS211
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/custom/frontend.css') }}">
+{% endblock %}
+
+{% block body %}
+<div id="content" class="container">
+  <div id="login-icon" class="pull-right">
+    <small><a href="{{ url_for('admin.overview') }}"><span class="glyphicon glyphicon-log-in"></span></a></small>
+  </div>
+
+  <div class="page-header text-center">
+    <h1><strong><a href="{{ url_for('blog') }}">Flask-Blog-IS211 Project</a></strong></h1>
+  </div>
+
+  {% block content %}{% endblock %}
+
+  <hr>
+
+  <div class="text-center">
+    <p><small>This blog is <strong> a Course project</strong> made for IS211 at <a href="https://github.com/grochin1/IS211_Courseproject">GitHub</a>.</small></p>
+  </div>
+</div>
+{% endblock %}
