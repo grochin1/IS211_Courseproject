@@ -26,7 +26,7 @@ def initdb():
 def filldb():
     print('Filling database...'),
 
-    admin = User(u'maritzas', u'maritzas')
+    admin = User(u'maritza', u'maritza')
     db.session.add(admin)
     db.session.commit()
 
@@ -58,7 +58,7 @@ def filldb():
     post.created = datetime(2012, 12, 24)
     post.update(post.title, post.markup, True)
     post = Post(
-        title=u'Maritzas vegan scramble!',
+        title=u'My vegan dish!',
         markup=POST_3,
         author_id=admin.id,
         visible=True,
@@ -128,7 +128,7 @@ Maecenas ut gravida nisi. Aenean feugiat orci non quam vehicula accumsan.
 Nullam scelerisque elementum sollicitudin. Sed vel tellus nisi, non tincidunt
 augue. Aliquam at nulla ut sem mollis tincidunt.
 
-![Riker](https://images.pexels.com/photos/248509/pexels-photo-248509.jpeg)
+![Vegan dish](https://images.pexels.com/photos/248509/pexels-photo-248509.jpeg)
 
 Nam quis urna est. Duis vel tt quam. Vivamus odio tortor, suscipit vel
 pretium quis, imperdiet quis dolor. Integer molestie enim nec risus malesuada
@@ -171,7 +171,7 @@ POST_5 = u"""
 To run my Project *IS211 Courseproject*, download code from [Mygithub](https://github.com/grochin1/IS211_Courseproject).
 
 ```python
-python manage.py init
+python app.py init
 ```
 """
 
