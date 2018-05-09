@@ -32,7 +32,7 @@ Simple blog with an administrator area created for Project IS211
 ### Initialize
 
 The following command will create all tables and fill the database with dummy
-blog posts. I created a post of the food I like!
+blog posts. I created a post of a dish I like!
 
     $ python app.py init
 
