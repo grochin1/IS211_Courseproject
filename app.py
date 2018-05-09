@@ -98,7 +98,7 @@ imperdiet. Donec pellentesque justo id sem tempor varius. Etiam ut tincidunt
 lorem. Nullam a tellus sem.
 
 ### If Vegans Said the Stuff Meat Eaters Say
-<iframe width="560" height="315" src="www.youtube.com/watch?v=0ikwofGUtYY"
+<iframe width="560" height="315" src="//www.youtube.com/watch?v=0ikwofGUtYY"
 frameborder="0" allowfullscreen></iframe>
 
 Vestibulum a neque sed quam pharetra interdum. Quisque euismod dictum ipsum.
